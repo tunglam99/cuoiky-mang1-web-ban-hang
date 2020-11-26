@@ -1,0 +1,177 @@
+.menu{
+    background-color: #ececec;
+    width: 100%;
+    height: auto;
+    position: fixed;
+    margin-top: 0px;
+    z-index: 100000;
+    opacity: 0.9;
+}
+.logo{
+    text-align: center;
+    line-height: 60px;
+    margin-left: 30px;
+    text-shadow: 2px 2px black;
+    font-family: Comic Sans MS;
+    color: #efa5c8;
+    font-size: 55px;
+    border: white;
+    border: 1px;
+    float: left;
+}
+.div, p{
+    font-size: 20px;
+    line-height: 48px;
+    font-family: "Courier New";
+    text-align: center;
+    border-bottom: 1px solid #d6d6d6;
+    margin-bottom: 25px;
+    padding: 25px 0px 25px;
+}
+.menu1{
+    padding: 80px;
+    margin-left: 120px;
+    font-size: 25px;
+    font-family: "Courier New";
+    vertical-align: middle;
+    line-height: 60px;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+
+.dropdown:hover .dropdowncontent {
+    display: block;
+}
+
+.dropdown:hover .dropdownbtn {
+    background-color: #3e8e41;
+}
+.mainmenu {
+    height: 0px;
+    margin-left: -35px;
+}
+
+.mainmenu ul#nav {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
+.mainmenu ul#nav li {
+    display: inline-block;
+    position: relative;
+}
+
+.mainmenu ul#nav li a {
+    display: block;
+    margin: 0 -2px;
+    padding: 2px 15px;
+    /*text-transform: uppercase;*/
+}
+
+.mainmenu ul#nav li:hover > a {
+    background: lightgrey none repeat scroll 0 0;
+}
+.mainmenu ul#nav li ul li a:hover {
+    color: #fff;
+    padding-left: 10px;
+}
+
+
+.mainmenu ul#nav li ul li.sub-sub-menu ul {
+    position: absolute;
+    left: 100%;
+    top: 0px;
+    display: none;
+}
+
+.mainmenu ul#nav li ul li.sub-sub-menu:hover ul {
+    display: block;
+}
+
+#nav > li {
+    position: relative;
+}
+
+#nav > li:hover ul {
+    opacity: 1;
+    z-index: 9999;
+    top: 100%;
+    visibility: visible;
+}
+
+#nav > li ul {
+    background: #fff none repeat scroll 0 0;
+    opacity: 0;
+    left: -2px;
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    text-align: left;
+    transition: all 0.5s ease 0s;
+    width: 204px;
+    padding-left: 2px;
+    z-index: -99999;
+    top: 150%;
+    visibility: hidden
+}
+
+#nav > li ul li {
+    display: block;
+    width: 200px;
+}
+a {
+    text-decoration: none;
+}
+.img-slide{
+    width:100%;
+    height: 600px
+}
+.slide{
+    text-align: center;
+    font-size: 32px;
+    font-family: Comic Sans MS;
+}
+.button-left {
+    position: absolute;
+    top: 38%;
+    left: 1%;
+    width: 25px;
+    height: 50px;
+    font-size: 20px;
+    font-size: 20px;
+    border: none;
+    background-color: white;
+    color: black;
+    opacity: 0.7;
+}
+.button-right {
+    position: absolute;
+    top: 38%;
+    left: 97%;
+    width: 23px;
+    height: 50px;
+    font-size: 20px;
+    border: none;
+    background-color: white;
+    color: black;
+    opacity: 0.7;
+}
+.product{
+}
+.footer{
+    padding-top: 15px;
+    padding-bottom: 50px;
+    position: relative;
+    z-index: 1;
+    background: #fff;
+}
+.line{
+    border-top: 1px solid #d6d6d6;
+    padding-top: 35px;
+}

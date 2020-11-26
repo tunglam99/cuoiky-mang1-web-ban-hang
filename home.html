@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="./assets/css/home.css">
+</head>
+<body>
+<div class="menu">
+    <span class="logo">Logo</span>
+    <span class="menu1">
+        <span class="dropdown">
+            <div class="mainmenu nav">
+            <ul id="nav">
+                <li class="menuborder"><a href="bosuutap.html">Bộ sưu tập</a>
+                    <ul>
+                        <li class='sub-sub-menu'><a href="shirts.html">Shirts/Top</a>
+                            <ul>
+                                <li><a href="">Oversize</a></li>
+                                <li><a href="">Fit</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="t-shirts.html">T-shirts</a></li>
+                        <li><a href="pants.html">Pants</a></li>
+                    </ul>
+                </li>
+                <li><a href="">Sale</a></li>
+                <li><a href="">Về chúng tôi</a></li>
+            </ul>
+        </div>
+        </span>
+    </span>
+</div>
+
+<div class="body">
+    <div class="slide">
+        <div class="w3-content w3-display-container">
+            <img class="img-slide" src="assets/img/2-2.jpg">
+            <img class="img-slide" src="assets/img/banner-lb.jpg">
+            <img class="img-slide" src="assets/img/bannerweb-final.png">
+            <button class="w3-button w3-black w3-display-left button-left" onclick="plusDivs(-1)">&#10094;</button>
+            <button class="w3-button w3-black w3-display-right button-right" onclick="plusDivs(1)">&#10095;</button>
+        </div>
+    </div>
+    <div>
+        <p>Bộ Sưu Tập</p>
+    </div>
+<!--    <div style="display: flex">-->
+<!--        <div>-->
+<!--            <img src="assets/img/2-2.jpg">-->
+<!--        </div>-->
+
+<!--        <div>-->
+<!--            <img src="assets/img/2-2.jpg">-->
+<!--        </div>-->
+<!--    </div>-->
+</div>
+
+<div class="footer">
+    <div class="line">
+
+    </div>
+</div>
+</body>
+
+<script>
+    var slideIndex = 1;
+    showDivs(slideIndex);
+
+    function plusDivs(n) {
+        showDivs(slideIndex += n);
+    }
+
+    function showDivs(n) {
+        var i;
+        var x = document.getElementsByClassName("img-slide");
+        if (n > x.length) {
+            slideIndex = 1
+        }
+        if (n < 1) {
+            slideIndex = x.length
+        }
+        for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+        }
+        x[slideIndex - 1].style.display = "block";
+    }
+
+    var slideIndex = 0;
+    carousel();
+
+    function carousel() {
+        var i;
+        var x = document.getElementsByClassName("img-slide");
+        for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+        }
+        slideIndex++;
+        if (slideIndex > x.length) {
+            slideIndex = 1
+        }
+        x[slideIndex - 1].style.display = "block";
+        setTimeout(carousel, 4000); // Change image every 2 seconds
+    }
+</script>
+</html>
