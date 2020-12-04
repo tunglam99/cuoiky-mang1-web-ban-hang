@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fit</title>
+    <link rel="stylesheet" href="./assets/css/home.css">
+    <link rel="icon" href="assets/img/logo/logo.png">
+</head>
+<body>
+<div class="menu">
+    <div><a href="home.html"><img src="assets/img/logo/logo.png" style="width: 50%; margin-top: 5px"></a></div>
+
+    <div class="custom">
+        <span class="dropdown">
+            <div class="mainmenu nav">
+            <ul id="nav">
+                <li><a href="home.html">Sản phẩm mới</a></li>
+                <li class="menuborder"><a href="bosuutap.html">Bộ sưu tập</a>
+                    <ul>
+                        <li class='sub-sub-menu'><a href="shirts-top.html">Shirts/Top</a>
+                            <ul>
+                                <li><a href="oversize.html">Oversize</a></li>
+                                <li><a href="fit.html">Fit</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="t-shirts.html">T-shirts</a></li>
+                        <li><a href="pants.html">Pants</a></li>
+                    </ul>
+                </li>
+                <li><a href="vechungtoi.html">Về chúng tôi</a></li>
+            </ul>
+        </div>
+        </span>
+    </div>
+    <span class="gio-hang">
+        <a href="GioHang.html" style="font-size: 15px;">
+            <img src="assets/img/logo/giohang.png" width="30px">
+            <span id="count">0</span>
+        </a>
+    </span>
+</div>
+<script>
+    var array = [];
+    if (localStorage.getItem('item') != null) {
+        array = JSON.parse(localStorage.getItem('item'));
+    }
+
+    document.getElementById('count').innerHTML =array.length;
+
+</script>
+</body>
+</html>

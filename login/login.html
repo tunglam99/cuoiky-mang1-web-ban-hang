@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Đăng nhập</title>
+    <link rel="stylesheet" href="login.css">
+    <link rel="icon" href="assets/img/logo/logo.png">
+</head>
+<body>
+<div class="all-login">
+    <div class="form-login">
+        <a href="login.html"><img src="../assets/img/logo/logo.png" alt=""></a>
+        <h2 class="title-dn">Đăng nhập</h2>
+        <form action="" id="form-login">
+            <input type="text" placeholder="Email" name="" id="username">
+            <input type="password" placeholder="Mật khẩu" name="" id="password">
+            <a href="forgot-password.html" class="qmk">Quên mật khẩu</a>
+            <div class="all-btn">
+                <button type="button" onclick="onFormSubmit()">Đăng nhập</button>
+                <button type="submit">Đăng ký</button>
+            </div>
+        </form>
+    </div>
+</div>
+<script>
+    var inputUsername = document.getElementById('username')
+    var inputPassword = document.getElementById('password')
+    var CORRECT_USER = 'tunglam99';
+    var CORRECT_PASSWORD = '123456';
+
+
+    function onFormSubmit() {
+        console.log('pk')
+        var username = inputUsername.value;
+        var password = inputPassword.value;
+
+        if (username === CORRECT_USER && password === CORRECT_PASSWORD) {
+            console.log(username, password)
+            if (window.confirm('Đăng nhập thành công!')) {
+                window.location = "../home.html";
+            }
+        } else {
+            alert('Đăng nhập thất bại')
+        }
+    }
+</script>
+</body>
+</html>

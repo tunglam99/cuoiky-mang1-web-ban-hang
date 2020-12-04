@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    color: black;
+    font-size: 14px;
+}
+.all-login{
+    background-image: url('../assets/img/background/bgr-login.1a488f571f5b2a0cf014.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.form-login{
+    background: white;
+    border-radius: 20px;
+    padding: 20px 50px;
+    padding-bottom: 40px;
+}
+.form-login img{
+    width: 100px;
+    margin: auto;
+    display: block;
+}
+.title-dn{
+    text-align: center;
+    margin-top: 20px;
+    color: #324DA1;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.form-login input{
+    margin-top: 20px;
+    height: 40px;
+    border: 1px solid #324DA1;
+    border-radius: 5px;
+    display: block;
+    width: 400px;
+    padding: 0 10px;
+}
+.form-login input::placeholder{
+    color: #545454;
+    font-style: italic;
+}
+.qmk{
+    text-align: right;
+    display: block;
+    color: #333333;
+    margin-top: 10px;
+    font-style: italic;
+    text-decoration: none;
+}
+.qmk:hover{
+    text-decoration: underline;
+}
+.all-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.all-btn button{
+    background: #324DA1;
+    color: white;
+    border-radius: 20px;
+    margin: 0 5px;
+    padding: 12px 0px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    width: 150px;
+}
+.all-btn button:hover{
+    background: #121e42;
+    color: white;
+    transition: .5s;
+}
+.alert{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #00000087;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+.box-alert{
+    background: white;
+    text-align: center;
+    padding: 50px;
+    border-radius: 20px;
+    border: 1px solid #324DA1;
+    width: 300px;
+    color: #324DA1;
+    padding-bottom: 25px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+}
+.box-alert p{
+    color: #324DA1;
+    font-size: 20px;
+    margin-bottom: 10px;
+}

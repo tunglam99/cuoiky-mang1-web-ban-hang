@@ -1,7 +1,90 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="f870f2c7-6e37-43d1-9859-45e969271e60" name="Default Changelist" comment="" />
+    <list default="true" id="f870f2c7-6e37-43d1-9859-45e969271e60" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/assets/img/Rectangle 584.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/Rectangle 585.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/background/bgr-login.1a488f571f5b2a0cf014.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/banner/slide.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/banner/slide2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/bosuutap/Capture1.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/bosuutap/Capture2.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/bosuutap/Capture3.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/bosuutap/Capture4.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/bosuutap/Capture5.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/bosuutap/Capture6.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/bosuutap/Capture7.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/bosuutap/Capture8.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/fit/Capture1.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/fit/Capture2.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/fit/Capture3.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/fit/Capture4.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/fit/Capture5.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/fit/Capture6.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/fit/Capture7.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/fit/Capture8.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/logo/giohang.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/logo/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/oversize/Capture1.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/oversize/Capture2.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/oversize/Capture3.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/oversize/Capture4.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/oversize/Capture5.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/oversize/Capture6.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/pants/Capture.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/pants/Capture1.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/pants/Capture2.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/pants/Capture3.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/pants/Capture4.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/pants/Capture5.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/pants/logoBoCongThuong.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/shirts-top/Capture1.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/shirts-top/Capture10.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/shirts-top/Capture2.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/shirts-top/Capture3.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/shirts-top/Capture4.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/shirts-top/Capture5.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/shirts-top/Capture6.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/shirts-top/Capture7.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/shirts-top/Capture8.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/shirts-top/Capture9.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bosuutap.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giohang.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/ss.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oversize.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pants.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shirts-top.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/t-shirts.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vechungtoi.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/home.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/2-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/banner-lb.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/bannerweb-final.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/banner/bannerweb-final.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/home.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,28 +93,42 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1koyMIpP2oS4qBCJCJcOU6YpA7l" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/css" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/img/background" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\tunglam\Desktop\mang1\cuoiky\assets\css" />
+      <recent name="C:\Users\tunglam\Desktop\mang1\cuoiky\assets\img\background" />
+      <recent name="C:\Users\tunglam\Desktop\mang1\cuoiky\login" />
+      <recent name="C:\Users\tunglam\Desktop\mang1\cuoiky\assets\img\logo" />
+      <recent name="C:\Users\tunglam\Desktop\mang1\cuoiky\assets\img\banner" />
+      <recent name="C:\Users\tunglam\Desktop\mang1\cuoiky\assets\img" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\tunglam\Desktop\mang1\cuoiky\login" />
       <recent name="C:\Users\tunglam\Desktop\mang1\cuoiky\assets\img" />
       <recent name="C:\Users\tunglam\Desktop\mang1\cuoiky\assets\css" />
     </key>
@@ -44,11 +141,54 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1606381189577</updated>
-      <workItem from="1606381190641" duration="9291000" />
+      <workItem from="1606381190641" duration="9623000" />
+      <workItem from="1606442424433" duration="6256000" />
+      <workItem from="1606462049172" duration="10932000" />
+      <workItem from="1606535530566" duration="6285000" />
+      <workItem from="1606546940773" duration="640000" />
+      <workItem from="1606552830539" duration="639000" />
+      <workItem from="1606694769991" duration="3773000" />
+      <workItem from="1606709928054" duration="1960000" />
+      <workItem from="1606813071886" duration="9020000" />
+      <workItem from="1606878236492" duration="1354000" />
+      <workItem from="1606899057410" duration="1183000" />
+      <workItem from="1606969929244" duration="169000" />
+      <workItem from="1606974241954" duration="25000" />
+      <workItem from="1607050128356" duration="20784000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="413" y="116" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1607051202696">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="413" y="116" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.738/1366.-313.1920.1050@0.0.1366.738" timestamp="1607051202696" />
+    <state x="413" y="116" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.738/1366.0.1920.1050@0.0.1366.738" timestamp="1606470653591" />
+    <state x="463" y="124" key="FileChooserDialogImpl" timestamp="1606470659537">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="463" y="124" key="FileChooserDialogImpl/0.0.1366.738/1366.0.1920.1050@0.0.1366.738" timestamp="1606470659537" />
+    <state x="339" y="165" key="run.anything.popup" timestamp="1607053386493">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="339" y="165" key="run.anything.popup/0.0.1366.738/1366.-313.1920.1050@0.0.1366.738" timestamp="1607053386493" />
   </component>
 </project>
