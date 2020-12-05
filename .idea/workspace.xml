@@ -20,70 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f870f2c7-6e37-43d1-9859-45e969271e60" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/img/Rectangle 584.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/Rectangle 585.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/background/bgr-login.1a488f571f5b2a0cf014.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/banner/slide.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/banner/slide2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/bosuutap/Capture1.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/bosuutap/Capture2.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/bosuutap/Capture3.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/bosuutap/Capture4.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/bosuutap/Capture5.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/bosuutap/Capture6.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/bosuutap/Capture7.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/bosuutap/Capture8.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/fit/Capture1.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/fit/Capture2.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/fit/Capture3.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/fit/Capture4.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/fit/Capture5.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/fit/Capture6.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/fit/Capture7.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/fit/Capture8.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/logo/giohang.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/logo/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/oversize/Capture1.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/oversize/Capture2.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/oversize/Capture3.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/oversize/Capture4.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/oversize/Capture5.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/oversize/Capture6.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/pants/Capture.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/pants/Capture1.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/pants/Capture2.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/pants/Capture3.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/pants/Capture4.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/pants/Capture5.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/pants/logoBoCongThuong.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/shirts-top/Capture1.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/shirts-top/Capture10.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/shirts-top/Capture2.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/shirts-top/Capture3.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/shirts-top/Capture4.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/shirts-top/Capture5.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/shirts-top/Capture6.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/shirts-top/Capture7.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/shirts-top/Capture8.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/shirts-top/Capture9.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bosuutap.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/giohang.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/login/login.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/login/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/login/login.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/login/ss.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oversize.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pants.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shirts-top.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/t-shirts.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vechungtoi.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/home.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/2-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/banner-lb.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/bannerweb-final.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/banner/bannerweb-final.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login/login.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/login/ss.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -154,7 +94,8 @@
       <workItem from="1606899057410" duration="1183000" />
       <workItem from="1606969929244" duration="169000" />
       <workItem from="1606974241954" duration="25000" />
-      <workItem from="1607050128356" duration="20784000" />
+      <workItem from="1607050128356" duration="20920000" />
+      <workItem from="1607137443482" duration="2948000" />
     </task>
     <servers />
   </component>
