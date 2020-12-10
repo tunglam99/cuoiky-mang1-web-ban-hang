@@ -68,8 +68,8 @@
 
 <script>
     var sanpham = JSON.parse(localStorage.getItem('item'));
-    var tong =0;
-    for (var i =0 ; i < sanpham.length; i++){
+    var tong = 0;
+    for (var i = 0; i < sanpham.length; i++) {
         tong += sanpham[i].price;
     }
     document.getElementById('count').innerHTML = sanpham.length;

@@ -19,31 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f870f2c7-6e37-43d1-9859-45e969271e60" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/img/background/bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/bosuutap/bosuutap.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/sanphammoi/Capture.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/sanphammoi/Capture1.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/sanphammoi/Capture2.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/sanphammoi/Capture3.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/sanphammoi/Capture4.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/sanphammoi/Capture5.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chinhsachthanhtoan.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chinhsachvanchuyen.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/registration/registration.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bosuutap.html" beforeDir="false" afterPath="$PROJECT_DIR$/bosuutap.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fit.html" beforeDir="false" afterPath="$PROJECT_DIR$/fit.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/giohang.html" beforeDir="false" afterPath="$PROJECT_DIR$/giohang.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/login/login.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/login/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oversize.html" beforeDir="false" afterPath="$PROJECT_DIR$/oversize.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pants.html" beforeDir="false" afterPath="$PROJECT_DIR$/pants.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shirts-top.html" beforeDir="false" afterPath="$PROJECT_DIR$/shirts-top.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/t-shirts.html" beforeDir="false" afterPath="$PROJECT_DIR$/t-shirts.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vechungtoi.html" beforeDir="false" afterPath="$PROJECT_DIR$/vechungtoi.html" afterDir="false" />
-    </list>
+    <list default="true" id="f870f2c7-6e37-43d1-9859-45e969271e60" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -119,7 +95,7 @@
       <workItem from="1607263065763" duration="2481000" />
       <workItem from="1607299888926" duration="5821000" />
       <workItem from="1607500969021" duration="2740000" />
-      <workItem from="1607585079596" duration="5686000" />
+      <workItem from="1607585079596" duration="6105000" />
     </task>
     <task id="LOCAL-00001" summary="fix">
       <created>1607153555309</created>

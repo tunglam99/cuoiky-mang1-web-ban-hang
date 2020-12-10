@@ -23,17 +23,17 @@
     </div>
 </div>
 <script>
-    function store(){
+    function store() {
 
         var name = document.getElementById('name');
         var pw = document.getElementById('pw');
 
-        if(name.value.length == 0){
+        if (name.value.length == 0) {
             alert('Vui lòng nhập tên đăng nhập');
-        }else{
+        } else {
             localStorage.setItem('name', name.value);
             localStorage.setItem('pw', pw.value);
-            if (window.confirm('Tài khoản của bạn đã được tạo')){
+            if (window.confirm('Tài khoản của bạn đã được tạo')) {
                 window.location = "../login/login.html";
             }
         }
