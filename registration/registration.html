@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Đăng ký</title>
+    <link rel="stylesheet" href="../login/login.css">
+    <link rel="icon" href="../assets/img/logo/logo.png">
+</head>
+<body>
+<div class="all-login">
+    <div class="form-login">
+        <a href="login.html"><img src="../assets/img/logo/logo.png" alt=""></a>
+        <h2 class="title-dn">Đăng ký</h2>
+        <form id="form-login">
+            <input type="text" placeholder="Nhập email của bạn" value="" id="name">
+            <input type="password" placeholder="Nhập mật khẩu" name="" id="pw">
+            <input type="password" placeholder="Xác nhận mật khẩu" name="" id="passwordConfirm">
+            <div class="all-btn">
+                <input type="button" id="rgstr_btn" class="show-noti" value="Đăng ký" onclick="store()">
+            </div>
+            <a style="float: right; margin: 20px 20px;" href="../login/login.html">Bạn đã có tài khoản?</a>
+        </form>
+    </div>
+</div>
+<script>
+    function store(){
+
+        var name = document.getElementById('name');
+        var pw = document.getElementById('pw');
+
+        if(name.value.length == 0){
+            alert('Vui lòng nhập tên đăng nhập');
+        }else{
+            localStorage.setItem('name', name.value);
+            localStorage.setItem('pw', pw.value);
+            if (window.confirm('Tài khoản của bạn đã được tạo')){
+                window.location = "../login/login.html";
+            }
+        }
+    }
+
+</script>
+
+</body>
+</html>

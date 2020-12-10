@@ -20,10 +20,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f870f2c7-6e37-43d1-9859-45e969271e60" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/assets/img/background/bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/bosuutap/bosuutap.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/sanphammoi/Capture.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/sanphammoi/Capture1.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/sanphammoi/Capture2.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/sanphammoi/Capture3.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/sanphammoi/Capture4.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/sanphammoi/Capture5.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chinhsachthanhtoan.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chinhsachvanchuyen.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/registration/registration.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bosuutap.html" beforeDir="false" afterPath="$PROJECT_DIR$/bosuutap.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fit.html" beforeDir="false" afterPath="$PROJECT_DIR$/fit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/giohang.html" beforeDir="false" afterPath="$PROJECT_DIR$/giohang.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/login.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/ss.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/login/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/login/login.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/login/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oversize.html" beforeDir="false" afterPath="$PROJECT_DIR$/oversize.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pants.html" beforeDir="false" afterPath="$PROJECT_DIR$/pants.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shirts-top.html" beforeDir="false" afterPath="$PROJECT_DIR$/shirts-top.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/t-shirts.html" beforeDir="false" afterPath="$PROJECT_DIR$/t-shirts.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vechungtoi.html" beforeDir="false" afterPath="$PROJECT_DIR$/vechungtoi.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,19 +77,20 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/img/background" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\tunglam\Desktop\mang1\cuoiky\login" />
+      <recent name="C:\Users\tunglam\Desktop\mang1\cuoiky\assets\img" />
+      <recent name="C:\Users\tunglam\Desktop\mang1\cuoiky\assets\css" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\tunglam\Desktop\mang1\cuoiky\assets\img\background" />
       <recent name="C:\Users\tunglam\Desktop\mang1\cuoiky\login" />
       <recent name="C:\Users\tunglam\Desktop\mang1\cuoiky\assets\img\logo" />
       <recent name="C:\Users\tunglam\Desktop\mang1\cuoiky\assets\img\banner" />
       <recent name="C:\Users\tunglam\Desktop\mang1\cuoiky\assets\img" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\tunglam\Desktop\mang1\cuoiky\login" />
-      <recent name="C:\Users\tunglam\Desktop\mang1\cuoiky\assets\img" />
-      <recent name="C:\Users\tunglam\Desktop\mang1\cuoiky\assets\css" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -95,8 +115,20 @@
       <workItem from="1606969929244" duration="169000" />
       <workItem from="1606974241954" duration="25000" />
       <workItem from="1607050128356" duration="20920000" />
-      <workItem from="1607137443482" duration="2948000" />
+      <workItem from="1607137443482" duration="3090000" />
+      <workItem from="1607263065763" duration="2481000" />
+      <workItem from="1607299888926" duration="5821000" />
+      <workItem from="1607500969021" duration="2740000" />
+      <workItem from="1607585079596" duration="5686000" />
     </task>
+    <task id="LOCAL-00001" summary="fix">
+      <created>1607153555309</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1607153555309</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -116,8 +148,14 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="413" y="167" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1607305172217">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="413" y="167" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.738@0.0.1366.738" timestamp="1607305172217" />
     <state x="413" y="116" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1607051202696">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -127,6 +165,10 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="463" y="124" key="FileChooserDialogImpl/0.0.1366.738/1366.0.1920.1050@0.0.1366.738" timestamp="1606470659537" />
+    <state x="275" y="98" key="Vcs.Push.Dialog.v2" timestamp="1607153595705">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="275" y="98" key="Vcs.Push.Dialog.v2/0.0.1366.738/1366.0.1600.870@0.0.1366.738" timestamp="1607153595705" />
     <state x="339" y="165" key="run.anything.popup" timestamp="1607053386493">
       <screen x="0" y="0" width="1366" height="738" />
     </state>

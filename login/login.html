@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title>Đăng nhập</title>
     <link rel="stylesheet" href="login.css">
-    <link rel="icon" href="assets/img/logo/logo.png">
+    <link rel="icon" href="../assets/img/logo/logo.png">
 </head>
 <body>
 <div class="all-login">
@@ -12,34 +12,30 @@
         <a href="login.html"><img src="../assets/img/logo/logo.png" alt=""></a>
         <h2 class="title-dn">Đăng nhập</h2>
         <form action="" id="form-login">
-            <input type="text" placeholder="Email" name="" id="username">
-            <input type="password" placeholder="Mật khẩu" name="" id="password">
-            <a href="forgot-password.html" class="qmk">Quên mật khẩu</a>
+            <input type="text" placeholder="Email" name="" id="userName">
+            <input type="password" placeholder="Mật khẩu" name="" id="userPw">
+            <a href="" class="qmk">Quên mật khẩu</a>
             <div class="all-btn">
-                <button type="button" onclick="onFormSubmit()">Đăng nhập</button>
-                <button type="submit">Đăng ký</button>
+                <button type="button" onclick="check()">Đăng nhập</button>
+                <button type="button" onclick="window.location.href='../registration/registration.html'">Đăng ký</button>
             </div>
         </form>
     </div>
 </div>
 <script>
-    var inputUsername = document.getElementById('username')
-    var inputPassword = document.getElementById('password')
-    var CORRECT_USER = 'tunglam99';
-    var CORRECT_PASSWORD = '123456';
+    function check(){
+        var storedName = localStorage.getItem('name');
+        var storedPw = localStorage.getItem('pw');
 
+        var userName = document.getElementById('userName');
+        var userPw = document.getElementById('userPw');
+        var userRemember = document.getElementById("rememberMe");
 
-    function onFormSubmit() {
-        console.log('pk')
-        var username = inputUsername.value;
-        var password = inputPassword.value;
-
-        if (username === CORRECT_USER && password === CORRECT_PASSWORD) {
-            console.log(username, password)
+        if(userName.value == storedName && userPw.value == storedPw){
             if (window.confirm('Đăng nhập thành công!')) {
                 window.location = "../home.html";
             }
-        } else {
+        }else{
             alert('Đăng nhập thất bại')
         }
     }

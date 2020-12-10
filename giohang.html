@@ -5,45 +5,6 @@
     <title>Giỏ hàng</title>
     <link rel="stylesheet" href="./assets/css/home.css">
     <link rel="icon" href="assets/img/logo/logo.png">
-<!--    <style>-->
-<!--        *{-->
-<!--            box-sizing: border-box;-->
-<!--            padding: 0;-->
-<!--            margin: 0;-->
-<!--        }-->
-<!--        img{-->
-<!--            width: 100%;-->
-<!--        }-->
-<!--        input{-->
-<!--            padding: 10px;-->
-<!--            border: 10px solid white;-->
-<!--        }-->
-<!--        .gio-hang1{-->
-<!--            border: 1px solid red;-->
-<!--            box-shadow: 2px 2px 4px;-->
-<!--            padding: 20px;-->
-<!--            margin: auto;-->
-<!--            max-width: 1100px;-->
-<!--        }-->
-<!--        .item-gio-hang{-->
-<!--            display: flex;-->
-<!--            flex-direction: row;-->
-<!--            align-items: center;-->
-<!--        }-->
-<!--        .item-gio-hang .hinhanh img {-->
-<!--            width: 60px;-->
-<!--            height: 60px;-->
-<!--        }-->
-<!--        .item-gio-hang .hinhanh, .soluong, .tongtien, .hanhdong{-->
-<!--            flex: 1;-->
-<!--        }-->
-<!--        .item-gio-hang.gia {-->
-<!--            flex: 2;-->
-<!--        }-->
-<!--        .item-gio-hang.ten{-->
-<!--            flex: 3;-->
-<!--        }-->
-<!--    </style>-->
 </head>
 <body>
 <div class="menu">
@@ -72,73 +33,39 @@
         </span>
     </div>
     <span class="gio-hang">
-        <a href="gioHang.html" style="font-size: 15px;">
+        <a style="font-family: 'Courier New'" href="login/login.html">Đăng nhập</a>
+        <a href="GioHang.html" style="font-size: 15px;">
             <img src="assets/img/logo/giohang.png" width="30px">
             <span id="count">0</span>
         </a>
     </span>
 </div>
-
-<!--<div class="gio-hang1">-->
-<!--    <div class="item-gio-hang">-->
-<!--        <div class="hinhanh">-->
-<!--            <img src="assets/img/oversize/Capture1.PNG">-->
-<!--        </div>-->
-<!--        <p class="ten">Áo</p>-->
-<!--        <div class="gia">-->
-<!--            <span> 500000đ</span>-->
-<!--        </div>-->
-<!--        <input type="number" class="soluong" value="1">-->
-<!--        <p class="tongtien">500000đ</p>-->
-<!--        <div class="hanhdong">-->
-<!--            <i class="far fa-trash-alt">Xóa</i>-->
-<!--        </div>-->
-<!--    </div>-->
-<!--    -->
-<!--    //danh sach item gio hang-->
-<!--</div>-->
-<!--<script>-->
-<!--    -->
-<!--    function hienThiDanhSachItemGioHang() {-->
-<!--        -->
-<!--    }-->
-<!--    -->
-<!--    function chuyenDanhSachItemGioHangSangHtml(danhSachItemGioHang) {-->
-<!--        var htmlTong ='';-->
-<!--        for (var i=0; i< danhSachItemGioHang.length; i++){-->
-<!--            htmlTong = htmlTong + chuyenDoiTuongItemGioHangSangHTML(danhSachItemGioHang[i]);-->
-<!--        }-->
-<!--        return htmlTong-->
-<!--    }-->
-
-
-
-<!--    // chuyen doi 1 doi tuong sang html-->
-
-<!--    function chuyenDoiTuongItemGioHangSangHTML(itemGioHang) {-->
-<!--        // itemGioHang: productId & so luong-->
-<!--        //b1; chuyen tu idSanPham -> đối tượng sản phẩm-->
-<!--        //b3: khi có đối tượng thì thay thế giá trị của đối tượng vào đoạn html-->
-<!--        var html =  '   <div class="item-gio-hang">  '  +-->
-<!--            '           <div class="hinhanh">  '  +-->
-<!--            '               <img src="assets/img/oversize/Capture1.PNG">  '  +-->
-<!--            '           </div>  '  +-->
-<!--            '           <p class="ten">Áo</p>  '  +-->
-<!--            '           <div class="gia">  '  +-->
-<!--            '               <span> 500000đ</span>  '  +-->
-<!--            '           </div>  '  +-->
-<!--            '           <input type="number" class="soluong" value="1">  '  +-->
-<!--            '           <p class="tongtien">500000đ</p>  '  +-->
-<!--            '           <div class="hanhdong">  '  +-->
-<!--            '               <i class="far fa-trash-alt">Xóa</i>  '  +-->
-<!--            '           </div>  '  +-->
-<!--            '      </div>  ' ;-->
-<!--        return html;-->
-<!--    }-->
-<!--</script>-->
-<br><br><br><br><br><br>
-<div id="container">
+<div>
+    <p style="padding-top: 50px"><strong>Giỏ hàng</strong></p>
 </div>
+<div id="container" style="margin-left: 70px">
+
+</div>
+<br><br><br><br><br><br>
+<div class="footer">
+    <div class="footer-1" style="margin-left: 118px">
+        <a href="chinhsachvanchuyen.html">Chính sách vận chuyển</a>
+        <a href="chinhsachthanhtoan.html">Chính sách thanh toán</a>
+        <a>Chính sách hỗ trợ</a>
+        <a>Hệ thống dịch vụ</a>
+        <a>Liên hệ</a>
+    </div>
+    <div class="footer-2">
+        <a href="https://www.facebook.com/halaMadrid0199.Me/">Facebook</a>
+        <a>Instagram</a>
+    </div>
+    <div class="footer-3">
+        <a style="text-align: right;" href="https://www.moit.gov.vn/" target="_blank">
+            <img src="assets/img/pants/logoBoCongThuong.png"></a>
+    </div>
+</div>
+
+
 <script>
     var sanpham = JSON.parse(localStorage.getItem('item'));
     var tong =0;
@@ -151,14 +78,14 @@
     bang += '<tr>';
     bang += '<th>Tên sản phẩm</th>';
     bang += '<th>Giá sản phẩm</th>';
-    bang += '<th>Xóa</th>';
+    // bang += '<th>Xóa</th>';
     bang += '</tr>';
 
     for (var i = 0; i < sanpham.length; i++) {
         bang += '<tr>';
         bang += '<td>' + sanpham[i].name + '</td>';
         bang += '<td>' + (sanpham[i].price) + ' VNĐ </td>';
-        bang += '<td>' + '<button onclick="localStorage.removeItem()"><label>Xóa</label></button>'+ '</td>'
+        // bang += '<td>' + '<button onclick="localStorage.removeItem()"><label>Xóa</label></button>'+ '</td>'
         bang += '</tr>';
     }
 
