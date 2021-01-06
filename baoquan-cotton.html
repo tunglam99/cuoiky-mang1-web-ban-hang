@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cotton</title>
+    <link rel="stylesheet" href="./assets/css/home.css">
+    <link rel="icon" href="assets/img/logo/logo.png">
+    <style>
+        .row{
+            /*display: -ms-flexbox;*/
+            display: flex;
+            /*-ms-flex-wrap: wrap;*/
+            flex-wrap: wrap;
+            margin-right: -15px;
+            margin-left: -15px;
+        }
+    </style>
+</head>
+<body>
+<div class="menu">
+    <div><a href="index.html"><img src="assets/img/logo/logo.png" style="width: 50%; margin-top: 5px"></a></div>
+
+    <div class="custom">
+        <span class="dropdown">
+            <div class="mainmenu nav">  
+            <ul id="nav">
+                <li><a href="index.html">Sản phẩm mới</a></li>
+                <li class="menuborder"><a href="bosuutap.html">Bộ sưu tập</a>
+                    <ul>
+                        <li class='sub-sub-menu'><a href="shirts-top.html">Shirts/Top</a>
+                            <ul>
+                                <li><a href="oversize.html">Oversize</a></li>
+                                <li><a href="fit.html">Fit</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="t-shirts.html">T-shirts</a></li>
+                        <li><a href="pants.html">Pants</a></li>
+                    </ul>
+                </li>
+                <li class="menuborder"><a href="vechungtoi.html">Về chúng tôi</a>
+                    <ul>
+                        <li class='sub-sub-menu'><a href="baoquan.html">Bảo quản</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        </span>
+    </div>
+    <span class="gio-hang">
+        <span id="DnDx"></span>
+        <a href="GioHang.html" style="font-size: 15px;">
+            <img src="assets/img/logo/giohang.png" width="30px">
+            <span id="count">0</span>
+        </a>
+    </span>
+</div>
+
+<div class="body">
+    <div>
+        <p style="padding-top: 80px" ><strong>Cách chăm sóc sản phẩm với chất liệu cotton</strong></p>
+    </div>
+    <div style="width: 75%; margin: auto;">
+        <p style="padding: 0px 0px 0px; margin-bottom: 0px; border-bottom: none;line-height: 30px; text-align: left">
+             Cotton được làm từ sợi bông. Vì vậy bạn có thể giặt bằng máy hoặc bằng tay. Để tránh quần áo bị co lại và luôn được như mới, hãy giặt ở nhiệt độ nước là 30 độ C.
+        </p><br><br>
+        <p style="padding: 0px 0px 40px; margin-bottom: 0px; border-bottom: none;line-height: 30px; text-align: left">
+            Nếu giặt bằng máy, bạn nên cho quần áo vào túi lưới khi giặt để tránh bị vặn hoặc xoắn trong quá trình giặt
+            Xử lý vết bẩn trước khi cho vào lồng giặt bằng cách nhúng một lượng nhỏ chất tẩy lên bề mặt. Đối với quần áo tối mầu, kiểm tra trước với bề mặt trong của vải trước để chắc chắn rằng mầu sắc của bề mặt vải không bị phai mầu bởi chất tẩy
+            Treo quần áo ở nơi khô ráo, hạn chế dùng máy sấy quần áo bởi có thể làm sợi cotton co lại. Việc này cũng giúp bạn tiết kiện điện năng mỗi ngày.
+         </p>
+         <div style="margin: auto; width: 60%; display: flex;">
+            <video src="assets/img/baoquan/Cotton.mp4" autoplay="autoplay" muted="muted" loop="loop" width="300"></video>
+            <img src="assets/img/baoquan/Cotton.jpg" width="100%" style="width: 300px">
+         </div>
+         <p style="padding-top: 80px; border: none; font-size: 27px;padding: 20px 0px 0px;" ><strong>Lợi ích của vải cotton</strong></p>
+         <p style="padding-top: 80px; border: none; padding: 0px 0px 0px;" >THÔNG THOÁNG-NHANH KHÔ-MỀM MẠI-THOẢI MÁI</p>
+         <p style="padding-top: 80px; border: none; padding: 20px 0px 0px;" >Cotton là loại sợi tự nhiên đến từ quả cây bông. Dù được sản xuất dưới bất kì hình thức nào cũng đem đến sự thoáng khí và dễ chịu, đặc biệt cho các hoạt động ngoài trời</p>
+    </div>
+</div>
+
+<div class="footer">
+    <div class="footer-1" style="margin-left: 118px">
+        <a href="chinhsachvanchuyen.html">Chính sách vận chuyển</a>
+        <a href="chinhsachthanhtoan.html">Chính sách thanh toán</a>
+        <a>Chính sách hỗ trợ</a>
+        <a>Hệ thống dịch vụ</a>
+        <a>Liên hệ</a>
+    </div>
+    <div class="footer-2">
+        <a href="https://www.facebook.com/halaMadrid0199.Me/">Facebook</a>
+        <a>Instagram</a>
+    </div>
+    <div class="footer-3">
+        <a style="text-align: right;" href="https://www.moit.gov.vn/" target="_blank">
+            <img src="assets/img/pants/logoBoCongThuong.png"></a>
+    </div>
+</div>
+</body>
+<script>
+    var array = [];
+    if (localStorage.getItem('item') != null) {
+        array = JSON.parse(localStorage.getItem('item'));
+    }
+
+    document.getElementById('count').innerHTML =array.length;
+
+    function them(name, price){
+        array.push({'name': name, 'price': price});
+        localStorage.setItem('item',JSON.stringify(array));
+        document.getElementById('count').innerHTML =array.length;
+    }
+
+    var status = localStorage.getItem('st')
+    var dx = '<a href="" title="Đăng xuất" onclick="DangXuat()"><img style="top: 10px" src="assets/img/logo/user.jpg"></a>';
+    var dn = '<a style="font-family: '
+    dn += "'Courier New'" 
+    dn += '"href="login/login.html">Đăng nhập</a>'
+    
+    function DangXuat() {
+        status = 0;
+        localStorage.setItem('st',0);
+    }
+
+    function loadUser() {
+        if(status == 1) {
+        document.getElementById('DnDx').innerHTML = dx;
+    }
+    else document.getElementById('DnDx').innerHTML = dn;
+    }
+    loadUser();
+</script>
+</html>

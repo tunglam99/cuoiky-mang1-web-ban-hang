@@ -18,13 +18,13 @@
 </head>
 <body>
 <div class="menu">
-    <div><a href="home.html"><img src="assets/img/logo/logo.png" style="width: 50%; margin-top: 5px"></a></div>
+    <div><a href="index.html"><img src="assets/img/logo/logo.png" style="width: 50%; margin-top: 5px"></a></div>
 
     <div class="custom">
         <span class="dropdown">
             <div class="mainmenu nav">
             <ul id="nav">
-                <li><a href="home.html">Sản phẩm mới</a></li>
+                <li><a href="index.html">Sản phẩm mới</a></li>
                 <li class="menuborder"><a href="bosuutap.html">Bộ sưu tập</a>
                     <ul>
                         <li class='sub-sub-menu'><a href="shirts-top.html">Shirts/Top</a>
@@ -37,13 +37,17 @@
                         <li><a href="pants.html">Pants</a></li>
                     </ul>
                 </li>
-                <li><a href="vechungtoi.html">Về chúng tôi</a></li>
+                <li class="menuborder"><a href="vechungtoi.html">Về chúng tôi</a>
+                    <ul>
+                        <li class='sub-sub-menu'><a href="baoquan.html">Bảo quản</a></li>
+                    </ul>
+                </li>
             </ul>
         </div>
         </span>
     </div>
     <span class="gio-hang">
-        <a style="font-family: 'Courier New'" href="login/login.html">Đăng nhập</a>
+        <span id="DnDx"></span>
         <a href="GioHang.html" style="font-size: 15px;">
             <img src="assets/img/logo/giohang.png" width="30px">
             <span id="count">0</span>
@@ -104,6 +108,13 @@
             Hi vọng các bạn có thể theo dõi và đồng hành cùng chúng tôi trên con đường đó.
         </p>
     </div>
+    <div style="width: 100%; text-align: center; display: flex; margin-bottom: 30px; margin-top: 30px">
+        <div style="width: 20%"></div>
+        <video controls style="width: 100%">
+            <source src="video/Thanks%20For%20Watching.mp4" type="video/mp4">
+        </video>
+        <div style="width: 20%"></div>
+    </div>
 </div>
 
 <div class="footer">
@@ -132,5 +143,23 @@
 
     document.getElementById('count').innerHTML =array.length;
 
+    var status = localStorage.getItem('st')
+    var dx = '<a href="" title="Đăng xuất" onclick="DangXuat()"><img style="top: 10px" src="assets/img/logo/user.jpg"></a>';
+    var dn = '<a style="font-family: '
+    dn += "'Courier New'" 
+    dn += '"href="login/login.html">Đăng nhập</a>'
+    
+    function DangXuat() {
+        status = 0;
+        localStorage.setItem('st',0);
+    }
+
+    function loadUser() {
+        if(status == 1) {
+        document.getElementById('DnDx').innerHTML = dx;
+    }
+    else document.getElementById('DnDx').innerHTML = dn;
+    }
+    loadUser();
 </script>
 </html>

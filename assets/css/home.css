@@ -272,3 +272,37 @@ a {
     position: relative;
     width: 100%;
 }
+
+
+
+.select-image{
+    position: -webkit-sticky;
+    position: sticky;
+    justify-content: space-between;
+    margin: 15px;
+    top: 70px;
+    bottom: 300px
+}
+.detail-product{
+    font-family: Courier New; 
+    position: -webkit-sticky;
+    position: sticky;
+    font-size: 25px;
+    top: 70px
+}
+.btnsize{
+    background-color: white;
+    border: 1px solid #d6d6d6;
+}
+.btnsize:hover{
+    background-color: lightgrey;
+}
+.detail{
+    font-family: "Courier New";
+    font-size: 20px;
+    /*line-height: 48px;*/
+    vertical-align: middle
+}
+.baoquansp:hover{
+    opacity: 0.4
+}

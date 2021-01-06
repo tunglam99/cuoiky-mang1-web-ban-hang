@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>WINDY JACKET</title>
+    <link rel="stylesheet" href="./assets/css/home.css">
+    <link rel="icon" href="assets/img/logo/logo.png">
+    <style>
+        .row{
+            /*display: -ms-flexbox;*/
+            display: flex;
+            /*-ms-flex-wrap: wrap;*/
+            flex-wrap: wrap;
+            margin-right: -15px;
+            margin-left: -15px;
+        }
+    </style>
+</head>
+<body>
+<div class="menu" >
+    <div><a href="index.html"><img src="assets/img/logo/logo.png" style="width: 50%; margin-top: 5px"></a></div>
+
+    <div class="custom">
+        <span class="dropdown">
+            <div class="mainmenu nav">
+            <ul id="nav">
+                <li><a href="index.html">Sản phẩm mới</a></li>
+                <li class="menuborder"><a href="bosuutap.html">Bộ sưu tập</a>
+                    <ul>
+                        <li class='sub-sub-menu'><a href="shirts-top.html">Shirts/Top</a>
+                            <ul>
+                                <li><a href="oversize.html">Oversize</a></li>
+                                <li><a href="fit.html">Fit</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="t-shirts.html">T-shirts</a></li>
+                        <li><a href="pants.html">Pants</a></li>
+                    </ul>
+                </li>
+                <li class="menuborder"><a href="vechungtoi.html">Về chúng tôi</a>
+                    <ul>
+                        <li class='sub-sub-menu'><a href="baoquan.html">Bảo quản</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        </span>
+    </div>
+    <span class="gio-hang">
+        <span id="DnDx"></span>
+        <a href="GioHang.html" style="font-size: 15px;">
+            <img src="assets/img/logo/giohang.png" width="30px">
+            <span id="count">0</span>
+        </a>
+    </span>
+</div>
+
+<div class="body">
+    <div>
+        <p style="padding-top: 80px" ><strong>Chi tiết sản phẩm</strong></p>
+    </div>
+    
+    <div class="row">
+        <div style="width: 10%;height: 520px; padding: 29px" class="select-image">
+            <a href="#pic1"><img src="assets/img/chitietsanpham/windy-jacket/1.jpg" width="100%"></a>
+            <a href="#pic2"><img src="assets/img/chitietsanpham/windy-jacket/2.jpg" width="100%"></a>
+            <a href="#pic3"><img src="assets/img/chitietsanpham/windy-jacket/3.jpg" width="100%"></a>
+            <a href="#pic4"><img src="assets/img/chitietsanpham/windy-jacket/4.jpg" width="100%"></a>
+        </div> 
+        <div style="width: 45%;padding-left: 200px" class="detail-image">
+            <img src="assets/img/chitietsanpham/windy-jacket/1.jpg" width="100%" id="pic1">
+            <img src="assets/img/chitietsanpham/windy-jacket/2.jpg" width="100%" id="pic2">
+            <img src="assets/img/chitietsanpham/windy-jacket/3.jpg" width="100%" id="pic3">
+            <img src="assets/img/chitietsanpham/windy-jacket/4.jpg" width="100%" id="pic4">
+        </div>
+
+        <div style="width: 40%;padding-left: 100px; height: 450px" class="detail-product">
+            <p style="padding: 0px 0px 0px; margin-bottom: 0px; border-bottom: none; text-align: left;font-size: 25px">WINDY JACKET</p>
+            <p style="padding: 0px 0px 0px; margin-bottom: 0px; text-align: left;"><strong>750.000đ</strong></p>
+            <p style="padding: 10px 0px 0px; margin-bottom: 0px; border-bottom: none; text-align: left;font-size: 20px">COLOR</p>
+            
+            <input type="image" name="" src="assets/img/Color/Beigi.bmp">
+            <input type="image" name="" src="assets/img/Color/Green.bmp">
+            <input type="image" name="" src="assets/img/Color/Black.bmp">
+
+            <p style="padding: 10px 0px 0px; margin-bottom: 0px; border-bottom: none; text-align: left;font-size: 20px">SIZE</p>
+                <input type="button" value="M" style="width: 50px; height: 50px;" class="btnsize">
+                <input type="button" value="L" style="width: 50px; height: 50px;" class="btnsize">
+                <input type="button" value="XL" style="width: 50px; height: 50px;" class="btnsize">
+            <p></p>
+            <button onclick="them('WINDY JACKET',750000)" class="text" style="color: white;background-color: gray; width: 450px">Thêm vào giỏ hàng</button>
+        </div>
+    </div>
+</div>
+
+<div class="footer" style="background-color: white; position: relative;" >
+    <div class="footer-1" style="margin-left: 118px">
+        <a href="chinhsachvanchuyen.html">Chính sách vận chuyển</a>
+        <a href="chinhsachthanhtoan.html">Chính sách thanh toán</a>
+        <a>Chính sách hỗ trợ</a>
+        <a>Hệ thống dịch vụ</a>
+        <a>Liên hệ</a>
+    </div>
+    <div class="footer-2">
+        <a href="https://www.facebook.com/halaMadrid0199.Me/">Facebook</a>
+        <a>Instagram</a>
+    </div>
+    <div class="footer-3">
+        <a style="text-align: right;" href="https://www.moit.gov.vn/" target="_blank">
+            <img src="assets/img/pants/logoBoCongThuong.png"></a>
+    </div>
+</div>
+</body>
+<script>
+    var array = [];
+    if (localStorage.getItem('item') != null) {
+        array = JSON.parse(localStorage.getItem('item'));
+    }
+
+    document.getElementById('count').innerHTML =array.length;
+
+    function them(name, price){
+        array.push({'name': name, 'price': price});
+        localStorage.setItem('item',JSON.stringify(array));
+        document.getElementById('count').innerHTML =array.length;
+    }
+
+    var status = localStorage.getItem('st')
+    var dx = '<a href="" title="Đăng xuất" onclick="DangXuat()"><img style="top: 10px" src="assets/img/logo/user.jpg"></a>';
+    var dn = '<a style="font-family: '
+    dn += "'Courier New'" 
+    dn += '"href="login/login.html">Đăng nhập</a>'
+    
+    function DangXuat() {
+        status = 0;
+        localStorage.setItem('st',0);
+    }
+
+    function loadUser() {
+        if(status == 1) {
+        document.getElementById('DnDx').innerHTML = dx;
+    }
+    else document.getElementById('DnDx').innerHTML = dn;
+    }
+    loadUser();
+</script>
+</html>
